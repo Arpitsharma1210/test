@@ -1,0 +1,167 @@
+{
+  "en": {
+    "general" : {
+      "action" : "Action",
+      "showMore" : "Show more",
+      "showing" : "Showing",
+      "search" : "Search...",
+      "reset" : "Reset",
+      "add" : "Add",
+      "submit" : "Submit",
+      "saveChanges" : "Save Changes",
+      "cancel" : "Cancel",
+      "noThankYou" : "No, Thank you",
+      "edit" : "Edit",
+      "save" : "Save",
+      "noData" : "No data found",
+      "noValue" : "-------",
+      "faq" : "FAQ",
+      "healthAndSupport" : "Health and Support",
+      "noOptionsText" : "Your search did not match any option",
+      "yes" : "Yes",
+      "no" : "No",
+      "loadMore" : "Load more...",
+      "showLess" : "Show less",
+      "delete" : "Delete",
+      "pending" : "Pending",
+      "completed" : "Completed",
+      "wasSent" : "was sent",
+      "risk" : "Risk",
+      "reminder" : "Reminder",
+      "missingFollowUpAssessment" : "Missing Follow-up Assessment",
+      "noAssessmentsCompleted" : "No assessments completed in current care",
+      "errors" : {
+        "invalidEmail" : "Please enter a valid email address",
+        "serverError" : "Something went wrong! please try again",
+        "invalidPassword" : "Password should contain atleast 8 characters, one upper case letter, one lower case letter, one number and one special character"
+      },
+      "userRoles": {
+        "ADMINISTRATOR" : "Administrator",
+        "SUPERVISOR" : "Supervisor",
+        "CLINICIAN" : "Clinician"
+      },
+      "status" : {
+        "ACTIVE" : "Active",
+        "INACTIVE" : "Inactive"
+      },
+      "gender": {
+        "MALE" : "Male",
+        "FEMALE" : "Female"
+      }
+    },
+    "sidebar":{
+      "menuItems":{
+        "dashboard" : "Dashboard",
+        "clients" : "Clients",
+        "userManagement" : "User Management",
+        "cohort" : "Cohort",
+        "outcomeMeasure" : "Outcome Measure"
+      },
+      "logout" : "Log Out"
+    },
+    "header":{
+      "menuItems":{
+        "viewProfile" : "View Profile",
+        "clinicDetails" : "Clinic Details",
+        "changePassword" : "Change Password"
+      },
+      "trialPeriod" : "Trial end in next {days} days",
+      "upgradeNow" : "Upgrade now"
+    },
+    "authPanel" : {
+      "info" : "Enter your Project info"
+    },
+    "login":{
+      "heading" : "Log in",
+      "subHeading" : "Log in with your registered email address.",
+      "form":{
+        "email":"Email address",
+        "password":"Password",
+        "logIn":"Log In",
+        "forgotPassword":"Forgot Password",
+        "signUp" : "Sign up",
+        "dontHaveAccount" : "Don't have an account?",
+        "errors" : {
+          "emailRequired" : "Please enter an email address",
+          "passwordRequired" : "Please enter a password",
+          "invalidDetails":"Your email address or password is invalid"
+        }
+      }
+    },
+    "signup": {
+      "heading" : "Create account",
+      "subHeading" : "Sign up with your details.",
+      "form": {
+        "firstName" : "First Name",
+        "lastName" : "Last Name",
+        "middleName" : "Middle Name (Optional)",
+        "email" : "Email Address",
+        "password" : "Password",
+        "confirmPassword" : "Confirm Password",
+        "businessName" : "Business Name",
+        "practiceType" : "Practice Type",
+        "postCode" : "Post Code",
+        "logIn" : "Log in",
+        "alreadyHaveAccount" : "Already have an account?",
+        "terms" : {
+          "info" : "By submitting your information, you agree to Measurely Terms of Service and Privacy Policy. You can opt out anytime."
+        },
+        "create" : "Create",
+        "errors" : {
+          "firstNameRequired" : "Please enter first name",
+          "lastNameRequired" : "Please enter last name",
+          "confirmPasswordRequired" : "Please enter confirm password",
+          "confirmPasswordNotMatch" : "Confirm password should match with the password",
+          "businessNameRequired" : "Please enter business name",
+          "postCodeRequired" : "Please enter post code",
+          "practiceTypeRequired" : "Please select practice type",
+          "termsRequired" : "Please read and accept the terms and conditions before proceeding",
+          "stripeNotLoaded" : "Stripe card hasn't loaded yet.",
+          "serverErrors" : {
+            "error.clinicSignup.userWithEmailAlreadyExists" : "Account with this email address already exists",
+            "error.clinicSignup.clinicWithNameAndPostcodeAlreadyExists" : "Clinic with this Name and Postcode already exists"
+          }
+        }
+      }
+    },
+    "forgotPassword":{
+      "heading" : "Forgot password",
+      "subHeading" : "Enter your registered email address.",
+      "form":{
+        "submitCta" : "Send Email",
+        "success": "Password reset link sent!",
+        "errors" : {
+          "invalidDetails":"Your email address is invalid"
+        }
+      }
+    },
+    "resetPassword":{
+      "heading" : "Reset password",
+      "subHeading" : "Use 8-12 characters, combination of uppercase, lowercase letters, numbers, and symbols.",
+      "form":{
+        "confirmPassword":"Confirm password",
+        "submitCta":"Confirm",
+        "success": "Password changed successfully!",
+        "errors" : {
+          "invalidDetails":"Your reset password link is invalid"
+        }
+      }
+    },
+    "changePassword" : {
+      "heading" : "Change Password",
+      "subheading" : "Provide the following details",
+      "oldPassword" : "Current Password",
+      "newPassword" : "New Password",
+      "errors" : {
+        "oldPasswordRequired" : "Please enter current password",
+        "serverErrors" : {
+          "error.modifyUserPassword.invalidOldPassword" : "Your current password is inavlid"
+        }
+      },
+      "success" :{
+        "text" : "Password updated!",
+        "subText" : "New password has been saved"
+      }
+    }
+  }
+}
